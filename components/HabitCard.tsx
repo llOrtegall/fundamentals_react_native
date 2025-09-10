@@ -6,7 +6,7 @@ type Props = {
   isCompleted?: boolean;
 }
 
-export default function AvidCard({ title, streak, isCompleted }: Props) {
+export default function HabitCard({ title, streak, isCompleted }: Props) {
   return (
     <View style={[styles.card, isCompleted ? styles.completada : null]}>
       <View style={styles.row}>
